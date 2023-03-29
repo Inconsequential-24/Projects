@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Calculate me!
+        </title>
+        <link href="util.css" type="text/css" rel="stylesheet"></link>
+        <link href="style.css" type="text/css" rel="stylesheet"></link>
+    </head>
+    <body>
+    <h1 class="text-center"> May I Help You With Calculations? </h1>
+    <div class="container mar flex flex-col item-center bg-red max-auto m-w">
+        <div class="row">
+            <!-- Using onekeydown attribute to 
+                not allow him enter value from keyboard -->
+        <input class="input" type="text" onkeydown="return false"/>
+        </div>
+        <div class="rows">
+            <button class="button">C</button>
+            <button class="button">%</button>
+            <button class="button">00</button>
+            <button class="button">000</button>
+        </div>
+        <div class="rows">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+        </div>
+        <div class="rows">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">/</button>
+        </div>
+        <div class="rows">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+        </div>
+        <div class="rows">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">-</button>
+        </div>
+    </div>
+    </body>
+    <script src="script.js"></script>
+</html>
